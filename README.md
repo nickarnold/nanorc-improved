@@ -14,8 +14,8 @@ Installation
 ------------
 
 Simply use `make` to concatenate everything together and install as a bundle
-to `~/.nanorc`. If you're terminal text color isn't black, you'll need to
-specify it when installing, e.g. `make TEXT=white` or `make TEXT=green` etc.
+to `~/.nanorc`. If you're terminal text color isn't white, you'll need to
+specify it when installing, e.g. `make TEXT=black` or `make TEXT=green` etc.
 
 After installation, use `nano examples/*` to test if everything is
 working properly. If some or all of the files fail to highlight properly,
