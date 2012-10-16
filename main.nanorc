@@ -1,48 +1,13 @@
-set tabstospaces
 set tabsize 4
-set fill 76
 set autoindent
 set morespace
 set quickblank
-set multibuffer
 set historylog
 set undo
 set smooth
 set const
-set nohelp
 set regexp
 set suspend
-
-# File
-bind ^O insert main
-bind ^S writeout main
-bind ^C cancel all
-bind ^Q cancel all
-bind ^W cancel all
-bind ^Q exit main
-bind ^W exit main
-
-# Edit
-bind ^A mark main
-bind ^X cut main
-bind ^V uncut main
-bind ^U undo main
-bind ^Y redo main
-bind ^T verbatim main
-bind F5 refresh all
-bind F8 autoindent main
-bind F12 autoindent main
-
-# Search
-bind ^F whereis all
-bind ^H replace all
-bind ^I casesens search
-bind ^I casesens replace
-bind ^R regex search
-bind ^R regex replace
-bind ^L gotoline main
-bind F3 searchagain main
-bind ^] findbracket main
 
 # Default highlighting
 syntax "default"
